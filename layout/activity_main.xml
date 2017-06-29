@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.edu.topica.sendtoweb.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ef621c">
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:hint="UIT ID"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:background="@drawable/edittext_built"
+        android:textColor="#ef621c" />
+
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:background="@drawable/edittext_built"
+        android:textColor="#ef621c"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember"
+        android:checked="true"
+        android:id="@+id/chkRemember"
+        android:buttonTint="@android:color/holo_orange_light"
+        android:textColor="#FFF"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:background="@drawable/button_built"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:id="@+id/btnLogin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtForgot"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
